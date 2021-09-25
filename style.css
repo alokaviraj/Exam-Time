@@ -1,0 +1,9 @@
+
+.btn-group{
+    align-items: flex-end;
+}
+
+.btn-group-vertical > .btn, .btn-group > .btn {
+    margin-inline: 10px;
+    margin-top: 5px;
+}
