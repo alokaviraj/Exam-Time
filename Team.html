@@ -1,18 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Team member</title>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+    
 </head>
+
 <body>
+<nav>
+    <div id="nav-placeholder">
+    </div>
+
+    <script>
+        $(function () {
+            $("#nav-placeholder").load("nav.html");
+        });
+    </script>
+</nav>
+  
+
+
     <div class="team">
         <h1>Alok</h1>
         <p>Lorem ipsum dolor, sit amet
-             consectetur adipisicing elit. Quasi doloribus illum sequi tenetur, beatae cupiditate quo, ea ducimus 
+            consectetur adipisicing elit. Quasi doloribus illum sequi tenetur, beatae cupiditate quo, ea ducimus
             doloremque iusto quas. Ipsum architecto ipsam eum doloremque, sequi tenetur itaque eligendi?</p>
     </div>
-    
+ 
 </body>
+
 </html>
